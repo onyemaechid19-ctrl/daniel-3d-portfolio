@@ -1,3 +1,4 @@
+
 import React from "react";
 import { motion } from "framer-motion";
 import {
@@ -45,28 +46,42 @@ export default function App() {
     <main>
       <nav className="navbar">
         <a className="logo" href="#">D<span>.</span></a>
+
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <a className="nav-contact" href="#contact">Let's talk ↗</a>
+
+        <a className="nav-contact" href="#contact">
+          Let's talk <ArrowUpRight size={15} />
+        </a>
       </nav>
 
       <section className="hero">
         <div className="hero-content">
-          <p className="eyebrow">AVAILABLE FOR OPPORTUNITIES</p>
-          <h1>Building digital<br />experiences with<br /><span>purpose.</span></h1>
+          <p className="eyebrow">INDEPENDENT DEVELOPER · CREATIVE THINKER</p>
+
+          <h1>
+            Building ideas<br />
+            into digital<br />
+            <span>experiences.</span>
+          </h1>
+
           <p className="hero-description">
-            I'm Onyemaechi Daniel — a developer and creative problem solver
-            exploring the intersection of technology, design and innovation.
+            I'm Onyemaechi Daniel — a developer and creative
+            problem solver exploring the intersection of
+            technology, design and innovation.
           </p>
+
           <div className="hero-actions">
             <a href="#projects" className="primary-btn">
               Explore my work <ArrowUpRight size={17} />
             </a>
-            <a href="#about" className="secondary-btn">Discover more</a>
+            <a href="#about" className="secondary-btn">
+              Discover more
+            </a>
           </div>
         </div>
 
@@ -81,7 +96,7 @@ export default function App() {
         <div className="hero-bottom">
           <span>BASED IN NIGERIA</span>
           <span>SCROLL TO EXPLORE ↓</span>
-          <span>DEVELOPER PORTFOLIO © 2026</span>
+          <span>PORTFOLIO © 2026</span>
         </div>
       </section>
 
@@ -90,9 +105,10 @@ export default function App() {
         <div className="about-content">
           <h2>Curious mind.<br /><span>Creative builder.</span></h2>
           <p>
-            I'm an aspiring software developer and ADSE student at Aptech.
-            I enjoy turning ideas into functional digital experiences,
-            learning new technologies and solving real-world problems through code.
+            I'm an aspiring software developer and ADSE student
+            at Aptech. I enjoy turning ideas into functional
+            digital experiences, learning new technologies and
+            solving real-world problems through code.
           </p>
         </div>
       </section>
@@ -145,14 +161,18 @@ export default function App() {
       <section className="contact section" id="contact">
         <p className="eyebrow">04 — GET IN TOUCH</p>
         <h2>Have an idea?<br /><span>Let's build it.</span></h2>
+
         <a href="mailto:your-email@example.com" className="primary-btn">
           Start a conversation <Mail size={17} />
         </a>
+
         <div className="socials">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/onyemaechid19-ctrl"
+             target="_blank" rel="noreferrer">
             <Github /> GitHub
           </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://linkedin.com/"
+             target="_blank" rel="noreferrer">
             <Linkedin /> LinkedIn
           </a>
         </div>
